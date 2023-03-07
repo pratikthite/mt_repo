@@ -1,12 +1,12 @@
 {
-    "R2": {
+    "R5": {
+        "FastEthernet0/0": {
+            "v4": "198.51.101.10/255.255.255.0",
+            "Status": "up/up",
+            "v6": "2001:01:00:00:c805:1cff:fe84:00"
+        },
         "FastEthernet2/0": {
             "Status": "down/down"
-        },
-        "FastEthernet0/0": {
-            "v4": "198.51.101.252/255.255.255.0",
-            "Status": "up/up",
-            "v6": "2001:01:00:00:c802:1cff:fe57:00"
         },
         "FastEthernet3/0": {
             "Status": "down/down"
@@ -15,19 +15,36 @@
             "Status": "up/up"
         },
         "FastEthernet1/0": {
-            "v4": "198.51.102.4/255.255.255.0",
-            "Status": "up/up",
-            "v6": "2001:1111:1111:1111:c802:1cff:fe57:1c"
+            "Status": "down/down"
         }
     },
-    "R4": {
+    "R1": {
+        "FastEthernet0/0": {
+            "Status": "down/down"
+        },
         "FastEthernet2/0": {
             "Status": "down/down"
         },
+        "FastEthernet3/0": {
+            "Status": "down/down"
+        },
+        "Null0": {
+            "Status": "up/up"
+        },
+        "FastEthernet1/0": {
+            "v4": "198.51.102.1/255.255.255.0",
+            "Status": "up/up",
+            "v6": "2001:1111:1111:1111:00:00:00:01"
+        }
+    },
+    "R4": {
         "FastEthernet0/0": {
             "v4": "198.51.101.1/255.255.255.0",
             "Status": "up/up",
             "v6": "2001:01:00:00:c804:1cff:fe75:00"
+        },
+        "FastEthernet2/0": {
+            "Status": "down/down"
         },
         "FastEthernet3/0": {
             "Status": "down/down"
@@ -41,14 +58,14 @@
             "v6": "2001:02:00:00:c804:1cff:fe75:1c"
         }
     },
-    "R5": {
+    "R2": {
+        "FastEthernet0/0": {
+            "v4": "198.51.101.252/255.255.255.0",
+            "Status": "up/up",
+            "v6": "2001:01:00:00:c802:1cff:fe57:00"
+        },
         "FastEthernet2/0": {
             "Status": "down/down"
-        },
-        "FastEthernet0/0": {
-            "v4": "198.51.101.10/255.255.255.0",
-            "Status": "up/up",
-            "v6": "2001:01:00:00:c805:1cff:fe84:00"
         },
         "FastEthernet3/0": {
             "Status": "down/down"
@@ -57,17 +74,19 @@
             "Status": "up/up"
         },
         "FastEthernet1/0": {
-            "Status": "down/down"
+            "v4": "198.51.102.4/255.255.255.0",
+            "Status": "up/up",
+            "v6": "2001:1111:1111:1111:c802:1cff:fe57:1c"
         }
     },
     "R3": {
-        "FastEthernet2/0": {
-            "Status": "down/down"
-        },
         "FastEthernet0/0": {
             "v4": "198.51.101.253/255.255.255.0",
             "Status": "up/up",
             "v6": "2001:01:00:00:c803:1cff:fe66:00"
+        },
+        "FastEthernet2/0": {
+            "Status": "down/down"
         },
         "FastEthernet3/0": {
             "Status": "down/down"
@@ -79,25 +98,6 @@
             "v4": "198.51.102.3/255.255.255.0",
             "Status": "up/up",
             "v6": "2001:1111:1111:1111:c803:1cff:fe66:1c"
-        }
-    },
-    "R1": {
-        "FastEthernet2/0": {
-            "Status": "down/down"
-        },
-        "FastEthernet0/0": {
-            "Status": "down/down"
-        },
-        "FastEthernet3/0": {
-            "Status": "down/down"
-        },
-        "Null0": {
-            "Status": "up/up"
-        },
-        "FastEthernet1/0": {
-            "v4": "198.51.102.1/255.255.255.0",
-            "Status": "up/up",
-            "v6": "2001:1111:1111:1111:00:00:00:01"
         }
     }
 }
